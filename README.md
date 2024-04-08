@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # gwandvideo
 
 Grid View c карточками товаров (автомобилей):
@@ -32,3 +33,6 @@ Grid View c карточками товаров (автомобилей):
 
 # LabVideoAndScroll
 # LabVideoAndScrolling
+=======
+# FavAndShop
+>>>>>>> 5b24a368cdc4bc804cf5b4b3011631d52b55256a
