@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:gwandvideo/favorite_cars.dart';
 import 'package:gwandvideo/product_materials/products_cars.dart';
 import 'package:gwandvideo/product_list.dart';
+import 'package:gwandvideo/shopping_list.dart';
 
 
 void main() {
@@ -37,6 +39,14 @@ class HomePage extends StatelessWidget {
 
      ),
      centerTitle: true,
+     actions: <Widget>[
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => FavoriteItem()));
+          }, icon: Icon(Icons.favorite_border_sharp)),
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => Basket()));
+          }, icon: Icon(Icons.shop))
+     ],
      ),
     body: GridView.builder(
         itemCount: productList.length,

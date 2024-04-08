@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gwandvideo/button.dart';
 import 'package:gwandvideo/product_materials/products_cars.dart';
+import 'package:gwandvideo/icon_button_favorite.dart';
 
 class CartProduct extends StatefulWidget {
   const CartProduct({Key? key, required this.index_car}) : super(key: key);
@@ -45,14 +46,24 @@ class _CartProductState extends State<CartProduct> {
               child: Expanded( child: ToCar(index_car: widget.index_car))
 
 
-          )
+          ),
+  Container(
+            child: Expanded(
+              flex: 1,
+              child:  Row(
+                children: <Widget>[
+                 IconButtonFavorite(index_car: widget.index_car),
+                  IconButtonShop(index_car: widget.index_car),
 
+                ],
+              ),
+            ) ,
+          )
         ],
       ),
     );
   }
 }
-
 
 
 
