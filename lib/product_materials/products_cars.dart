@@ -25,4 +25,18 @@ List<Cars> productList = [
 
 ];
 
+class User{
+  int id;
+  String lastname;
+  String firstname;
+  String Email;
+  String Phone;
+  String Photo;
 
+  User(this.id,this.lastname, this.firstname, this.Email, this.Phone, this.Photo);
+}
+
+List<User> Useris = [
+ User(1, 'Тестов', 'Сергей', 'seregatester@mail.russiavpered', '+79562561243', 'https://kartinki.pics/uploads/posts/2022-03/1648048168_2-kartinkin-net-p-kartinki-litsa-cheloveka-2.jpg')
+
+];
