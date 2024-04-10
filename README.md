@@ -1,3 +1,4 @@
 Описал функционал внутри гифки
 
-![2024-04-08 21-39-07](https://github.com/WanderedInteractive/FavAndShop/assets/161350050/2e09dd7d-8d49-4b1a-872b-2855d5ec06c5)
+![2024-04-10 11-02-56 (online-video-cutter com) (1)](https://github.com/WanderedInteractive/FinalShop/assets/161350050/78bf3a28-7978-478d-9699-ab9fedc99d2a)
+
